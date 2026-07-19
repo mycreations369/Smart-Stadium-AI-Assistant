@@ -119,3 +119,16 @@
     background-size: 200% 100%;
   }
 }
+.dashboard-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:15px;
+}
+
+.dashboard-card{
+  background:#1e293b;
+  color:white;
+  padding:20px;
+  border-radius:12px;
+  text-align:center;
+}
