@@ -67,6 +67,20 @@ function Shell() {
       <p>Verified</p>
     </div>
 
+<div className="card">
+  <h2>🤖 AI Features</h2>
+
+  <ul>
+    <li>AI Fan Assistant</li>
+    <li>Voice Navigation</li>
+    <li>Multi Language Support</li>
+    <li>Emergency SOS</li>
+    <li>Crowd Monitoring</li>
+    <li>Smart Match Information</li>
+  </ul>
+</div>
+    
+
   </div>
 </div>
         
