@@ -41,6 +41,35 @@ function Shell() {
           {view === 'crowd' && <CrowdView />}
           {view === 'sentiment' && <SentimentView />}
         </div>
+
+<div className="card">
+  <h2>🏟 Smart Stadium Dashboard</h2>
+
+  <div className="dashboard-grid">
+
+    <div className="dashboard-card">
+      <h3>👥 Crowd Density</h3>
+      <p>Medium</p>
+    </div>
+
+    <div className="dashboard-card">
+      <h3>🚗 Parking Slots</h3>
+      <p>124 Available</p>
+    </div>
+
+    <div className="dashboard-card">
+      <h3>🌦 Weather</h3>
+      <p>28°C Clear Sky</p>
+    </div>
+
+    <div className="dashboard-card">
+      <h3>🎫 Ticket Status</h3>
+      <p>Verified</p>
+    </div>
+
+  </div>
+</div>
+        
       </main>
 
       <BottomNav />
